@@ -1,0 +1,129 @@
+/* src/components/Experience.css */
+
+.experience-section {
+  padding: 50px;
+  background-color: #f9f9f9;
+  color: #333;
+  width: 80%; /* Adjust width similar to the projects section */
+  margin: 0 auto;
+}
+
+.experience-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #222;
+  text-align: center;
+}
+
+.experience-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.company-timeline {
+  position: relative;
+}
+.company-info {
+  gap: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.company-name {
+  font-size: 1.5em;
+
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 30px;
+  margin-left: 20px;
+}
+
+.timeline-item {
+  display: flex;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.timeline-dot {
+  width: 15px;
+  height: 15px;
+  background-color: #007bff;
+  border-radius: 50%;
+  position: absolute;
+  left: -7px;
+  top: 5px;
+}
+
+.timeline-content {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: calc(100% - 30px);
+  margin-left: 30px;
+}
+
+.role-title {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #333;
+}
+
+.role-location,
+.duration {
+  font-size: 1em;
+  color: #555;
+}
+
+.location {
+  font-weight: bold;
+}
+
+.duration {
+  font-weight: bold;
+  color: #555;
+}
+
+.role-description {
+  font-size: 1em;
+  color: #555;
+  margin-top: 10px;
+}
+
+.role-skills {
+  margin-top: 15px;
+}
+
+.role-skill {
+  background-color: #f1f1f1;
+  padding: 6px 12px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  color: #333;
+  display: inline-block;
+}
+
+.role-skill:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.diamond-icon {
+  margin-right: 8px;
+  color: #007bff;
+}
+.company-logo {
+  width: 60px; /* Adjust the size as needed */
+  height: 60px;
+  border-radius: 50px;
+  border: 3px solid #88d3ce;
+  object-fit: contain;
+}

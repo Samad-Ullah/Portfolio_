@@ -1,0 +1,57 @@
+/* src/Footer.css */
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  position: relative;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.phone-number {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+}
+
+.phone-number svg {
+  font-size: 1.5rem;
+  color: #ff6347; /* Orange color for the phone icon */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.social-icon {
+  font-size: 2rem;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2); /* Hover effect for the icons */
+  color: #ff6347; /* Change icon color on hover */
+}
+
+.footer-text {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.footer-text p {
+  margin: 0;
+}
+
+.footer a {
+  text-decoration: none;
+}
